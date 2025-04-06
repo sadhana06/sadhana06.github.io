@@ -16,14 +16,15 @@ body {
   .container {
     display: flex;
     gap: 40px;
+    align-items: flex-start;
   }
   
   .left {
-    flex: 7;
+    flex-basis: 70%;
   }
   
   .right {
-    flex: 3;
+    flex-basis: 30%;
     font-size: 0.9em;
     color: #444;
   }
